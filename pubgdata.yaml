@@ -1,0 +1,24 @@
+
+file_type: yaml
+dataset_name: pubg_agg_match
+file_name: pubg_agg_match_stats_0
+table_name: ast
+inbound_delimiter: ','
+outbound_delimiter: '|'
+skip_leading_rows: 1
+columns: 
+    - date
+    - game_size
+    - match_id
+    - match_mode
+    - party_size
+    - player_assists
+    - player_dbno
+    - player_dist_ride
+    - player_dist_walk
+    - player_dmg
+    - player_kills
+    - player_name
+    - player_survive_time
+    - team_id
+    - team_placement
